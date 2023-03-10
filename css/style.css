@@ -61,6 +61,20 @@ html, body {
   
 }
 
+#warning {
+  font-size: 20px;
+  margin-top: 15px;
+  line-height: 35px;
+
+}
+
+#warninglink {
+  font-size: 20px;
+  margin-top: 200px;
+  line-height: 35px;
+
+}
+
 
 a:link {
   color: #ffffff;
