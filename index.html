@@ -9,8 +9,6 @@
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="icon" type="image/x-icon" href="assets/logos/favicon.ico">
 
-    <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#000000" />
     </head>
 
 <body style="position: fixed;">
@@ -25,23 +23,6 @@
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/type.js"></script>
-<script>
-
-    // ServiceWorker Registration
-    if('serviceWorker' in navigator) {
-        window.addEventListener('load', function() {
-            navigator.serviceWorker.register('sw.js').then(function(registration) {
-                // Registration was successful
-                console.log('ServiceWorker registration successful with scope: ', registration.scope);
-                
-            }, function(err) {
-                // registration failed :(
-                console.log('ServiceWorker registration failed: ', err);
-            });
-        });
-    }
     
-
-</script>
 </body>
 </html>
