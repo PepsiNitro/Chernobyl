@@ -1,14 +1,14 @@
-var CACHE_NAME = 'version2'; // bump this version when you make changes.
+var CACHE_NAME = 'version3'; // bump this version when you make changes.
 // Put all your urls that you want to cache in this array
 var urlsToCache = [
-    '/index.html',
-    '/discretion.html',
-    '/audio.html',
-    '/linked/200.html',
-    '/linked/fate.html',
-    '/linked/links.html',
-    '/linked/video.html',
-    '/assets/videos/'
+    'index.html',
+    'discretion.html',
+    'audio.html',
+    'linked/200.html',
+    'linked/fate.html',
+    'linked/links.html',
+    'linked/video.html',
+    'assets/videos/'
 
 ];
 
