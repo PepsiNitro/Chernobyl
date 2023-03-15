@@ -1,6 +1,6 @@
 {
-    "name": "The Chernobly Archives",
-    "short_name": "Archives",
+    "name": "c",
+    "short_name": "c",
     "icons": [
         {
             "src": "assets/logo-192.png",
@@ -16,6 +16,6 @@
     "theme_color": "#000000",
     "background_color": "#000000",
     "display": "standalone",
-
+    
     "start_url":"index.html"
 }
