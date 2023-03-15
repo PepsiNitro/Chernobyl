@@ -1,4 +1,4 @@
-var CACHE_NAME = 'version9'; // bump this version when you make changes.
+var CACHE_NAME = 'version10'; // bump this version when you make changes.
 // Put all your urls that you want to cache in this array
 var urlsToCache = [
     'audio.html',
@@ -15,6 +15,11 @@ var urlsToCache = [
     'js/visualizer.js',
 
     'css/style.css',
+
+    'assets/audios/200.mp3',
+    'assets/audios/AudioLogBegin.mp3',
+    'assets/audios/TheFateOfLiquidators.mp3',
+    'assets/audios/Warning.mp3',
 
     'assets/logo-192.png'
 ];
