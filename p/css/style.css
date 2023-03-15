@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'Press Start 2P';
+  src: url('PressStart2P-Regular.ttf') format('truetype');
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+html, body {
+    font-family: 'Press Start 2P', cursive;
+    height: 100%;
+    background-color: black;
+    overflow-x: hidden;
+    -webkit-scrollbar: none;
+    
+  }
+
+
+.animate-typing {
+    color: #ffffff;
+    text-shadow: 0 0 5px red,
+         0 0 10px red, 
+         0 0 20px red, 
+         0 0 30px red, 
+         0 0 40px red, 
+         0 0 55px red, 
+         0 0 70px red;
+
+}
+
+#connected {
+  margin-top: 25px;
+  margin-left: 50px;
+  font-size: 27px;
+  font-stretch: narrower;
+
+}
+
+#redirection {
+  margin-top: 50px;
+  margin-left: 25px;
+  font-size: 20px;
+  font-stretch: narrower;
+
+}
+
+#continue {
+  margin-top: 300px;
+  margin-left: 25px;
+  font-size: 20px;
+  font-stretch: narrower;
+
+}
+
+#log {
+  font-size: 12px;
+  margin-top: 15px;
+  line-height: 35px;
+  
+}
+
+#warning {
+  font-size: 20px;
+  margin-top: 15px;
+  line-height: 35px;
+
+}
+
+#warninglink {
+  font-size: 20px;
+  margin-top: 200px;
+  line-height: 35px;
+
+}
+
+
+a:link {
+  color: #ffffff;
+  text-shadow: 0 0 5px red,
+       0 0 10px red, 
+       0 0 20px red, 
+       0 0 30px red, 
+       0 0 40px red, 
+       0 0 55px red, 
+       0 0 70px red;
+
+  text-decoration: none;
+
+}
+
+a:visited {
+  color: #ffffff;
+    text-shadow: 0 0 5px red,
+         0 0 10px red, 
+         0 0 20px red, 
+         0 0 30px red, 
+         0 0 40px red, 
+         0 0 55px red, 
+         0 0 70px red;
+
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: #ffffff;
+    text-shadow: 0 0 5px red,
+         0 0 10px red, 
+         0 0 20px red, 
+         0 0 30px red, 
+         0 0 40px red, 
+         0 0 55px red, 
+         0 0 70px red;
+
+  text-decoration: none;
+
+}
+
+a:active {
+  color: #ffffff;
+    text-shadow: 0 0 5px red,
+         0 0 10px red, 
+         0 0 20px red, 
+         0 0 30px red, 
+         0 0 40px red, 
+         0 0 55px red, 
+         0 0 70px red;
+
+  text-decoration: none;
+
+}
