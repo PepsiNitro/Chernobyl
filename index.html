@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel="icon" type="image/x-icon" href="assets/logos/favicon.ico">
     <link rel=icon sizes=192x192 href="assets/logos/logo-192.png">
-    <link rel="manifest" href="js/manifest.json">
+    <link rel="manifest" href="manifest.json">
         <style>
             :root{
                 --theme:#000000;
@@ -37,7 +37,7 @@
         // ServiceWorker Registration
         if('serviceWorker' in navigator) {
             window.addEventListener('load', function() {
-                navigator.serviceWorker.register('js/sw.js').then(function(registration) {
+                navigator.serviceWorker.register('sw.js').then(function(registration) {
                     // Registration was successful
                     console.log('ServiceWorker registration successful with scope: ', registration.scope);
                     

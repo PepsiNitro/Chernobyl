@@ -1,4 +1,4 @@
-var CACHE_NAME = 'version1'; // bump this version when you make changes.
+var CACHE_NAME = 'version2'; // bump this version when you make changes.
 // Put all your urls that you want to cache in this array
 var urlsToCache = [
     'audio.html',
@@ -11,8 +11,6 @@ var urlsToCache = [
     'linked/video.html',
 
     'js/jquery-3.3.1.min.js',
-    'js/manifest.json',
-    'js/sw.js',
     'js/type.js',
     'js/visualizer.js',
 
