@@ -1,4 +1,4 @@
-var CACHE_NAME = 'version2'; // bump this version when you make changes.
+var CACHE_NAME = 'version3'; // bump this version when you make changes.
 // Put all your urls that you want to cache in this array
 var urlsToCache = [
     'audio.html',
@@ -42,8 +42,8 @@ var urlsToCache = [
     'assets/images/TerminalRadiationLevelsRed.jpg',
 
     'assets/logos/favicon.ico',
-    'assets/logos/logo-192.png',
-    'assets/logos/logo-512.png',
+    'assets/logo-192.png',
+    'assets/logo-512.png',
     'assets/logos/logo.png',
 
     'assets/videos/3828.mp4',
