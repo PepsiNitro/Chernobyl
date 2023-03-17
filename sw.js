@@ -1,4 +1,4 @@
-var CACHE_NAME = 'version2'; // bump this version when you make changes.
+var CACHE_NAME = 'version3'; // bump this version when you make changes.
 // Put all your urls that you want to cache in this array
 var urlsToCache = [
     'audio.html',
@@ -18,6 +18,33 @@ var urlsToCache = [
 
     'assets/logo-192.png',
     'assets/logo-512.png',
+
+    'assets/audios/200.mp3',
+    'assets/audios/AudioLogBegin.mp3',
+    'assets/audios/TheFateOfLiquidators.mp3',
+    'assets/audios/Warning.mp3',
+
+    'assets/images/3828.jpg',
+    'assets/images/ControlCenter.jpg',
+    'assets/images/DeconstructionOfVillages.jpg',
+    'assets/images/FalloutRadius.jpg',
+    'assets/images/FlightOverChernobly.jpg',
+    'assets/images/HelicopterCrash.png',
+    'assets/images/InsideChernobly.jpg',
+    'assets/images/Liquidators.jpg',
+    'assets/images/LiquidatorsOfChernobyl.jpg',
+    'assets/images/MixedMedia.jpg',
+    'assets/images/NeverBefore.jpg',
+    'assets/images/PCPEvacuation.jpg',
+    'assets/images/RoofCleaning.png',
+    'assets/images/RoomCleanUp.jpg',
+    'assets/images/TerminalCall.png',
+    'assets/images/TerminalClassified.jpg',
+    'assets/images/TerminalRadiationLevelsBlue.jpg',
+    'assets/images/TerminalRadiationLevelsRed.jpg',
+
+
+    
 ];
 
 // Install the service worker and open the cache and add files mentioned in array to cache
