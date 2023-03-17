@@ -1,8 +1,14 @@
-var CACHE_NAME = 'version0'; // bump this version when you make changes.
+var CACHE_NAME = 'version1'; // bump this version when you make changes.
 // Put all your urls that you want to cache in this array
 var urlsToCache = [
+    'audio.html',
+    'discretion.html',
     'index.html',
-    'assets/logo-192.png'
+
+    'linked/200.html',
+    'linked/fate.html',
+    'linked/links.html',
+    'linked/video.html',
 ];
 
 // Install the service worker and open the cache and add files mentioned in array to cache
