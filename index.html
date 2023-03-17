@@ -3,26 +3,27 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <meta name="description" content="This is a PWA called helloworld">
+        <meta name="description" content="This is a PWA called The Chernobly Archives">
         <meta name="keywords" content="pwa" >
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="author" content="" />
         <meta name="copyright" content="" />
         <meta name="robots" content="follow"/>
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="helloworld">
+        <meta property="og:title" content="Chernobly Archives">
         <meta property="og:url" content="">
         <meta property="og:image:secure_url" itemprop="image" content="">
         <meta property="og:image" itemprop="image" content="">
         <meta property="og:image:width" content="700" />
         <meta property="og:image:height" content="700" />
-        <meta property="og:image:alt" content="OG image of helloworld" />
-        <meta property="og:description" content="This is a PWA called helloworld">
-        <meta property="og:site_name" content="helloworld">
+        <meta property="og:image:alt" content="OG image of The Chernobly Archives" />
+        <meta property="og:description" content="This is a PWA called The Chernobly Archives">
+        <meta property="og:site_name" content="Chernobly Archives">
         <meta name="fragment" content="!">
         <link rel=icon sizes=192x192 href="assets/logo-192.png">
         <meta name="theme-color" content="#000000" />
-        <title>helloworld</title>
+        <title>[Connection]</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
         <link rel="manifest" href="manifest.json">
         <style>
             :root{
@@ -31,24 +32,20 @@
             a{text-decoration:none;color:var(--theme)}
         </style>
     </head>
-    <body>
-    <!-- Replace this Div with your HTML content -->
-    <div style="position:relative;margin-top:100px;font-family:arial,Cursive;padding-left:100px;text-align:center;">
-        <img src="https://res.cloudinary.com/saurabhdaware/image/upload/v1557861561/saurabhdaware.in/projects/pwainit-portfolio.png" width=300 style="border-radius:50%;"><br>
-        <img style="position:absolute;top:120px;left:0;right:0;margin:auto;" src="assets/logo-192.png" width='70'>
-        <h2 style="color:var(--theme)">
-            Your PWA helloworld is ready 🎉
-        </h2>
-        <div style="opacity:.8;color:#333;">
-            This project is generated using <a href="https://saurabhdaware.github.io/pwainit">pwainit</a><br><br>
-            <br><b>Useful Links</b><br>
-            <a href="https://saurabhdaware.github.io/pwainit">Docs</a> <b>|</b> <a href="https://github.com/saurabhdaware/pwainit">Github</a> <b>|</b> <a href="https://medium.com/@saurabhdaware/turning-your-existing-website-to-pwa-using-pwainit-8c56c42abc4e">Medium Article</a>
-            <br><br><b>The client generated following files</b><br>
-            <a href="manifest.json">manifest.json</a> 
-            <b>|</b> <a href="sw.js">sw.js</a><br>
-            
-        </div>
-    </div>
+    
+        <body style="position: fixed;">
+            <div class="animate-typing" id="connected" data-type-speed="75">RADIO TRANSMISSION CONNECTED...</div> 
+            <div class="animate-typing" id="redirection" data-type-speed="100" data-type-delay="5000">USERNAME: ********</div>
+            <div class="animate-typing" id="redirection" data-type-speed="100" data-type-delay="10000">PASSWORD: ***********</div>
+            <div class="animate-typing" id="redirection" data-type-speed="100" data-type-delay="13000">CONNECTION CONFIRMED</div> 
+            <div class="animate-typing" id="redirection" data-type-speed="100" data-type-delay="15000">LINK TO DATA BEGIN IN 3 2 1</div>
+        
+            <a href="discretion.html"><div class="animate-typing" id="continue" data-type-speed="75" data-type-delay="18000">AUDIO LOG</div></a>
+        
+        
+            <script src="js/jquery-3.3.1.min.js"></script>
+            <script src="js/type.js"></script> 
+
     <script>
     
     // ServiceWorker Registration
@@ -64,8 +61,7 @@
             });
         });
     }
-    
-    
     </script>
+    
     </body>
 </html>
