@@ -2,13 +2,36 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>[Audio Prompt]</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    <link rel=icon sizes=192x192 href="assets/logo-192.png">
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="This is a PWA called The Chernobly Archives">
+  <meta name="keywords" content="pwa" >
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="author" content="" />
+  <meta name="copyright" content="" />
+  <meta name="robots" content="follow"/>
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Chernobly Archives">
+  <meta property="og:url" content="">
+  <meta property="og:image:secure_url" itemprop="image" content="">
+  <meta property="og:image" itemprop="image" content="">
+  <meta property="og:image:width" content="700" />
+  <meta property="og:image:height" content="700" />
+  <meta property="og:image:alt" content="OG image of The Chernobly Archives" />
+  <meta property="og:description" content="This is a PWA called The Chernobly Archives">
+  <meta property="og:site_name" content="Chernobly Archives">
+  <meta name="fragment" content="!">
+  <link rel=icon sizes=192x192 href="assets/logo-192.png">
+  <meta name="theme-color" content="#000000" />
+  <title>[[Audio Prompt]</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <link rel="manifest" href="manifest.json">
+  <style>
+      :root{
+          --theme:#000000;
+      }
+      a{text-decoration:none;color:var(--theme)}
+  </style>
 </head>
 
 <body>
@@ -35,7 +58,22 @@
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/type.js"></script>
 
+    <script>
+    
+      // ServiceWorker Registration
+      if('serviceWorker' in navigator) {
+          window.addEventListener('load', function() {
+              navigator.serviceWorker.register('sw.js').then(function(registration) {
+                  // Registration was successful
+                  console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                  
+              }, function(err) {
+                  // registration failed :(
+                  console.log('ServiceWorker registration failed: ', err);
+              });
+          });
+      }
+      </script>
+
 </body>
 </html>
-
-<!-- 241000 -->
