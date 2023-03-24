@@ -1,8 +1,9 @@
-var CACHE_NAME = 'version4'; // bump this version when you make changes.
+var CACHE_NAME = 'version5'; // bump this version when you make changes.
 // Put all your urls that you want to cache in this array
 var urlsToCache = [
     'audio.html',
     'discretion.html',
+    'index.html',
 
     'linked/200.html',
     'linked/fate.html',
